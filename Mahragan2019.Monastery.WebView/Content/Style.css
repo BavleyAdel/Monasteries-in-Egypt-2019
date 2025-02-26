@@ -1,0 +1,114 @@
+body {
+    direction: rtl;
+    margin-top: 63px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*********Dropdown Links***********/
+
+.dropdown-item {
+    margin-top: 3px;
+    padding: 10px 7px;
+    text-align: right;
+    color: #318f45;
+    font-size: 17px;
+}
+
+
+/*********Dropdown Links Hover***********/
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #eee;
+    background-color: #28a745;
+    padding-right: 3px;
+    transition: .5s ease;
+}
+
+
+/*********Dropdown*************/
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #343a40;
+    min-width: 200px;
+    border-top: 2px solid #28a745;
+    border-top-right-radius: 2px solid #28a745;
+    border-top-left-radius: 2px solid #28a745;
+    right: 0px;
+    left: auto;
+}
+
+
+/*************** nav-Links***********************/
+
+.navbar-dark .navbar-nav .nav-link {
+    float: right;
+}
+
+
+/*************** nav-activeLinks***********************/
+
+
+/* 
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background-color: rgba(143, 143, 143, 0.64);
+} */
+
+
+/********************disabled-Link*************************/
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+
+/**************Search btn********************/
+
+.btn {
+    transition: .5s ease;
+}
+
+
+/********** Go Up *********/
+
+.goUp {
+    position: fixed;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    z-index: 99;
+    bottom: 25px;
+    right: 12px;
+    padding: 10 13px;
+    border-radius: 5px;
+    background-color: rgba(5, 10, 5, 0.2);
+}
+
+.goUpPic {
+    font-weight: 700;
+}
+
+
+/******************Jumbotron***********************/
+
+.jumbotron {
+    text-align: right;
+}
+
+/**********Spinner****************/
+.spinner-grow {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

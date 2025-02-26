@@ -1,0 +1,62 @@
+# .gitignore for a .NET project
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite
+
+# Environment files
+.env
+
+# Dependency directories
+node_modules/
+packages/
+
+# Configuration and settings
+appsettings*.json
+
+# IDE-specific settings
+*.csproj.user
+*.csproj.ide
+
+# Published output
+publish/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Resharper files
+_ReSharper*/
+
+# Rider files
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# Debug and crash reports
+hs_err_pid*
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+temp/

@@ -1,0 +1,115 @@
+﻿<html>
+
+<head>
+    <meta charset="utf8">
+    <title> تاريخ دير الأنبا بيشوي </title>
+    <link rel="icon" href="../Images/Coptic cross.png">
+    <link rel="stylesheet" href="../Content/bootstrap.min.css">
+    <link href="../Content/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../Content/Style.css">
+
+    <style>
+        .rounded {
+            float: left;
+        }
+
+        #NoData {
+            display: block;
+            position: fixed;
+            z-index: 1031;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">الصفحة الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            بعض الأديرة
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="#">دير الأنبا بولا أول السواح </a>
+                            <a class="dropdown-item" href="#">دير الأنبا أنطونيوس </a>
+                            <a class="dropdown-item disabled" href="Monastery_of_Saint_Bishoy.html"> دير الأنبا بيشوي </a>
+
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Monastery_in_Egypt.html"> المزيد من الأديرة </a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item hiddenOne">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">دير الأنبا بيشوي</a>
+                    </li>
+
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="Monastery_of_Saint_Bishoy.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            تاريخ الدير
+                        </a>
+                        <div class="dropdown-menu hiddenOne" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="shafe3.html"> شفيع الدير </a>
+                            <a class="dropdown-item" href="https://goo.gl/maps/kcrSktzu6cVPNtDc7" target="_blank"> الموقع من Google Maps </a>
+                            <a class="dropdown-item" href="https://goo.gl/maps/kcrSktzu6cVPNtDc7" target="_blank"> الموقع من Google Earth </a>
+
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item disabled" href="#"> فيديوهات عن الدير <span class="badge badge-light"> قريبًا </span> </a>
+                            <a class="dropdown-item disabled" href="#"> رؤساء الدير <span class="badge badge-light"> قريبًا </span> </a>
+                            <a class="dropdown-item disabled" href="#"> مشاهير الدير <span class="badge badge-light"> قريبًا </span> </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="Monastery_in_Egypt.html">
+                الأديرة القبطية المصرية
+                <img src="../Images/Coptic cross.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+        </nav>
+    </div>
+
+    <!--GO-UP-->
+    <button class="goUp myBtn"> <span class="fa fa-angle-double-up goUpPic"></span></button>
+
+    <!--spinner-->
+    <div id="mySpinner1" class="spinner-grow d-none" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+
+
+    <div style="text-align: center;" id="NoData" class="d-none">
+        <h1> عذرًا ! لا توجد معلومات . </h1>
+    </div>
+    <!--Jumbotrons-->
+    <div id="historyJombotrons">
+
+    </div>
+
+    <!--Scripts-->
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../Scripts/popper.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/Main.js"></script>
+    <script src="../Scripts/SaintBishoyHistory.js"></script>
+
+</body>
+
+</html>
